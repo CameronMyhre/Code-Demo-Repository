@@ -12,6 +12,7 @@ public class RandomNumberGenerator {
         // Calculate a value to multiply the random number by to get the desired result. 
         double randomNumberMultiplier = maxNumber - mixNumber;
 
-        return Math.random() * randomNumberMultiplier + mixNumber;
+        // Return a randomly generated number.
+        return Math.round(Math.random() * randomNumberMultiplier + mixNumber);
     }
 }
