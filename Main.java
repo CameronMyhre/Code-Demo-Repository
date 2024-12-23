@@ -18,13 +18,13 @@ public class Main {
         // Display the resulting output equation.
         System.out.println("3 * " + randomNumber + " = " + thriceRandomNumber);
 
-        // Triple the random number.
+        // Quadruple the random number.
         double fourTimesRandomNumber = randomNumber * 4;
 
         // Display the resulting output equation.
         System.out.println("4 * " + randomNumber + " = " + fourTimesRandomNumber);
 
-        // Triple the random number.
+        // Quintuple the random number.
         double fiveTimesRandomNumber = randomNumber * 5;
 
         // Display the resulting output equation.
