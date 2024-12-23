@@ -23,5 +23,11 @@ public class Main {
 
         // Display the resulting output equation.
         System.out.println("4 * " + randomNumber + " = " + fourTimesRandomNumber);
+
+        // Triple the random number.
+        double fiveTimesRandomNumber = randomNumber * 5;
+
+        // Display the resulting output equation.
+        System.out.println("5 * " + randomNumber + " = " + fiveTimesRandomNumber);
     }
 }
